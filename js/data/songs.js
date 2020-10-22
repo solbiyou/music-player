@@ -1,6 +1,6 @@
 export const songsList = [{
     "id": "1",
-    "url": "../../music/nice-for-what.mp3",
+    "url": "../../music/nice-for-what.wav",
     "time": "04:22",
     "title": "Nice For What",
     "artist": "Drake"
