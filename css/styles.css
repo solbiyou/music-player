@@ -132,12 +132,13 @@ body {
   background: rgba(0,0,0,0.3);
 }
 
-.playlist__song-active {
+.playlist__song--active {
+  background: rgba(0, 0, 0, 0.3);
   color: var(--light-green);
 }
 
 /*  */
-.playlist__song-active div {
+.playlist__song--active div {
   /* get color from parent's */
   color: inherit;
 }
