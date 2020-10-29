@@ -1,3 +1,5 @@
+import Playlist from './playlist.js';
+
 const PlayInfo = (_ => {
 
   const state = {
@@ -11,6 +13,18 @@ const PlayInfo = (_ => {
   
   const init = _ => {
     render();
+    listeners();
+  }
+
+  const listeners = _ => {
+    playerTriggerEl.addEventListener('click', _ => {
+      //1. change its own state
+      state.isPlaying = state.isPlaying ? false : true;
+      //2. render it
+      render();
+      //3. toggle the playpaluse song in playlist.js
+      Playlist.flip();
+    })
   }
 
   const setState = obj => {
@@ -23,8 +37,6 @@ const PlayInfo = (_ => {
     playerCountEl.innerHTML = state.songsLength;
     playerTriggerEl.innerHTML = state.isPlaying ? 'Pause' : 'Play';
   }
-
-
 
   return {
     init,

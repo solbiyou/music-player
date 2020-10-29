@@ -5,9 +5,12 @@ const Playlist = (_ => {
   let songs = songsList;
   let currentlyPlayingIndex = 0;
   let currentSong = new Audio(songs[currentlyPlayingIndex].url);
-  let isPlaying = false;
+  // let isPlaying = false;
 
   // currentSong.currentTime = 170;
+
+
+
 
   //cache the DOM
   const playlistEl = document.querySelector(".playlist");
@@ -19,6 +22,11 @@ const Playlist = (_ => {
       songsLength: songs.length,
       isPlaying: !currentSong.paused
     })
+  }
+
+  const flip = _ => {
+    togglePlayPause();
+    render();
   }
 
   const changeAudioSrc = _ => {
@@ -109,7 +117,8 @@ const Playlist = (_ => {
 
 
   return {
-    init
+    init,
+    flip
   }
 })();
 
