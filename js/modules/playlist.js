@@ -1,5 +1,5 @@
 import {songsList} from '../data/songs.js';
-
+import PlayInfo from './play-info.js';
 const Playlist = (_ => {
   //data or state
   let songs = songsList;
@@ -7,7 +7,7 @@ const Playlist = (_ => {
   let currentSong = new Audio(songs[currentlyPlayingIndex].url);
   let isPlaying = false;
 
-  currentSong.currentTime = 170;
+  // currentSong.currentTime = 170;
 
   //cache the DOM
   const playlistEl = document.querySelector(".playlist");
@@ -15,6 +15,10 @@ const Playlist = (_ => {
   const init = _ => {
     render();
     listeners();
+    PlayInfo.setState( {
+      songsLength: songs.length,
+      isPlaying: !currentSong.paused
+    })
   }
 
   const changeAudioSrc = _ => {
@@ -35,6 +39,11 @@ const Playlist = (_ => {
       changeAudioSrc();
       togglePlayPause();
     }
+
+    PlayInfo.setState( {
+      songsLength: songs.length,
+      isPlaying: !currentSong.paused
+    })
   }
 
   const playNext = _ => {
