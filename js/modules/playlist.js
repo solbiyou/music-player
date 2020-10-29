@@ -11,8 +11,6 @@ const Playlist = (_ => {
   // currentSong.currentTime = 170;
 
 
-
-
   //cache the DOM
   const playlistEl = document.querySelector(".playlist");
 
@@ -39,7 +37,6 @@ const Playlist = (_ => {
   const mainPlay = clickedIdx => {
     if (currentlyPlayingIndex === clickedIdx) {
       //toggle play or pause
-      console.log('same');
       togglePlayPause();
 
     } else {

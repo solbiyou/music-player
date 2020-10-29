@@ -1,52 +1,52 @@
 export const songsList = [{
     "id": "1",
-    "url": "../../music/nice-for-what.mp3",
-    "time": "04:22",
-    "title": "Nice For What",
-    "artist": "Drake"
+    "url": "../../music/1.This Place for God.mp3",
+    "time": "04:10",
+    "title": "This Place for God",
+    "artist": "Markers"
   },
   {
     "id": "2",
-    "url": "../../music/gods-plan.mp3",
-    "time": "03:19",
-    "title": "God's Plan",
-    "artist": "Drake"
+    "url": "../../music/2.God, He Shares Our Pain.mp3",
+    "time": "05:24",
+    "title": "God, He Shares Our Pain",
+    "artist": "Welove"
   },
   {
     "id": "3",
-    "url": "../../music/professional-rapper.mp3",
-    "time": "05:52",
-    "title": "Professional Rapper ft. Snoop Dog",
-    "artist": "Lil Dicky"
+    "url": "../../music/3.To Worshipers.mp3",
+    "time": "04:10",
+    "title": "To Worshipers",
+    "artist": "Welove"
   },
   {
     "id": "4",
-    "url": "../../music/yellow.mp3",
-    "time": "04:29",
-    "title": "Yellow",
-    "artist": "Coldplay"
+    "url": "../../music/Someone Is Praying For You.mp3",
+    "time": "04:23",
+    "title": "Someone Is Praying For You",
+    "artist": "Lanny Wolfe"
   },
   {
     "id": "5",
-    "url": "../../music/get-lucky.mp3",
-    "time": "06:09",
-    "title": "Get Lucky",
-    "artist": "Daft Punk"
+    "url": "../../music/He changed my sigh.mp3",
+    "time": "04:15",
+    "title": "He Changed My Sigh",
+    "artist": "Jinyoung So"
   },
-  // {
-  //   "id": "6",
-  //   "url": "../../music/shape-of-my-heart.mp3",
-  //   "time": "04:43",
-  //   "title": "Shape Of My Heart",
-  //   "artist": "Sting"
-  // },
-  // {
-  //   "id": "7",
-  //   "url": "../../music/seven-days.mp3",
-  //   "time": "03:57",
-  //   "title": "7 days",
-  //   "artist": "craig David"
-  // },
+  {
+    "id": "6",
+    "url": "../../music/I love you, Jesus.mp3",
+    "time": "04:46",
+    "title": "I Love You, Jesus ",
+    "artist": "Takafumi Nagasawa"
+  },
+  {
+    "id": "7",
+    "url": "../../music/The Power Of Your Love.mp3",
+    "time": "03:57",
+    "title": "The Power Of Your Love",
+    "artist": "Geoff Bullock"
+  },
   // {
   //   "id": "8",
   //   "url": "../../music/dilemma.mp3",

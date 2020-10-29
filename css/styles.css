@@ -42,7 +42,7 @@ body {
 }
 
 .app {
-  background: linear-gradient(to bottom, #7d182f, #100206);
+  background: linear-gradient(to bottom, #e6924e, #361f05);
   height: 100%;
 }
 
@@ -81,12 +81,14 @@ body {
 }
 
 .player__image {
-  width: 70%;
+  /* width; */
+  width: 100%;
   /* automatically adjust its height to its content to be displayed */
   height: auto;
   /* default inline-block */
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .player__details {
@@ -116,7 +118,7 @@ body {
 .playlist {
   list-style-type: none;
   height: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
   /* make horizontal scroll hidden */
   overflow-x: hidden;
 }
