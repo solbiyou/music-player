@@ -47,13 +47,13 @@ export const songsList = [{
     "title": "The Power Of Your Love",
     "artist": "Geoff Bullock"
   },
-  // {
-  //   "id": "8",
-  //   "url": "../../music/dilemma.mp3",
-  //   "time": "04:42",
-  //   "title": "Nelly Dilemma ft. keylly Rowland",
-  //   "artist": "Nelly"
-  // },
+  {
+    "id": "8",
+    "url": "../../music/Jesus shall take the highest honor.mp3",
+    "time": "03:24",
+    "title": "Jesus shall take the highest honor",
+    "artist": "Chris Bowater"
+  },
   // {
   //   "id": "9",
   //   "url": "../../music/psycho.mp3",
