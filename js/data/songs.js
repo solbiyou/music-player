@@ -54,13 +54,13 @@ export const songsList = [{
     "title": "Jesus shall take the highest honor",
     "artist": "Chris Bowater"
   },
-  // {
-  //   "id": "9",
-  //   "url": "../../music/psycho.mp3",
-  //   "time": "03:57",
-  //   "title": "Post Malone Psycho Ft. Ty Dolla",
-  //   "artist": "Post malone"
-  // },
+  {
+    "id": "9",
+    "url": "../../music/What A Beautiful Name.mp3",
+    "time": "04:25",
+    "title": "What A Beautiful Name",
+    "artist": "Hillsong Worship"
+  },
   // {
   //   "id": "10",
   //   "url": "../../music/congratulations.mp3",
